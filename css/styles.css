@@ -99,15 +99,14 @@ nav .logo {
 
 .info-container .logo-2 {
     margin-left: 120px;
-    margin-top: 100px;
+    margin-top: 150px;
     justify-content: space-around;
 }
 
 .info-container .info {
     justify-content: space-between;
-    margin-left: 300px;
-    margin-right: 200px;
-    margin-top: 130px;
+    margin: 180px 100px 200px 300px;
+ 
     font-family: 'Anton', sans-serif;
     align-items: center;
   
@@ -129,11 +128,34 @@ margin-left: 10px;
   /* yeezy content */
 .yeezy-container {
     display: flex;
+    justify-content: space-between;
 }
 
-.yeezy-container .yezzy-image {
- height: 20px;
+.yeezy-container img {
+    width: 350px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+   
 }
+
+.yeezy-container .yeezy-info {
+    margin-top: 100px; 
+    margin-left: 100px;
+
+ }
+
+.yeezy-container .yeezy-info h5 {
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+ .yeezy-container .yeezy-info p {
+     padding: 10px;
+     font-family: 'Anton', sans-serif;;
+     font-size: 12px;
+ }
+  
 
     
     
