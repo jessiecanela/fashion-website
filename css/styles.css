@@ -1,6 +1,91 @@
-@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
-
-h1 {
-    color: red;
-    font-family: 'Lacquer', sans-serif;;
+@import url('https://fonts.googleapis.com/css?family=Anton|Lacquer|Saira+Semi+Condensed&display=swap');
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
 }
+
+li{
+    list-style: none;
+}
+
+
+header {
+    background: red;
+    height: 800px;
+}
+.navbar {
+font-family: 'Saira Semi Condensed', sans-serif;
+
+
+}
+.navbar ul {
+    display: flex;
+     justify-content: flex-end;
+
+
+}
+
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+   
+}
+
+.navbar ul li {
+    padding: 20px;
+}
+
+nav {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+nav .logo {
+    margin: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+.banner {
+    position:relative;
+    width:100%;
+    margin:0 auto;
+    text-align: center;
+    color:white
+}
+
+.banner img {
+    width: 350px;
+    margin-top: 50px;
+}
+
+.brand-name  {
+    position: absolute;
+    top:25%;
+    left:25%;
+    color:#fff;
+    transform: (-50%,-50%);
+   font-family:  'Lacquer', sans-serif;
+   font-size: 100px;
+}
+
+.brand-name .hook {
+    position: absolute;
+    top:70%;
+    left:10%;
+    color:#fff;
+    transform: (-50%,-50%);
+   font-family:  'Lacquer', sans-serif;
+   font-size: 100px;
+}
+
+.brand-name .fashion {
+    position: absolute;
+    top:160%;
+    left:15%;
+    color:#fff;
+    transform: (-50%,-50%);
+   font-family:  'Lacquer', sans-serif;
+   font-size: 100px;
