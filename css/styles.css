@@ -1,230 +1,227 @@
-@import url('https://fonts.googleapis.com/css?family=Anton|Lacquer|Saira+Semi+Condensed&display=swap');
-*{
-    box-sizing: border-box;
-    margin:0;
-    padding:0;
+@import url("https://fonts.googleapis.com/css?family=Anton|Lacquer|Saira+Semi+Condensed&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
-li{
-    list-style: none;
+li {
+  list-style: none;
 }
 
 /* header */
 header {
-    background: #F23005;
-    height: 800px;
+  background: #f23005;
+  height: 800px;
 }
 
 .navbar {
-font-family: 'Saira Semi Condensed', sans-serif;
-
-
+  font-family: "Saira Semi Condensed", sans-serif;
 }
 .navbar ul {
-    display: flex;
-     justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .navbar ul li a {
-    color: white;
-    text-decoration: none;
-   
+  color: white;
+  text-decoration: none;
 }
 
 .navbar ul li {
-    padding: 20px;
+  padding: 20px;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 0 2px;
+}
+
+nav ul li a:hover {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
 }
 
 nav {
-display: flex;
-align-items: center;
-justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 nav .logo {
-    margin: 30px;
-    color: #fff;
-    cursor: pointer;
+  margin: 30px;
+  color: #fff;
+  cursor: pointer;
 }
 .banner {
-    position:relative;
-    width:100%;
-    margin:0 auto;
-    text-align: center;
-    color:white
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
 }
 
 .banner img {
-    width: 350px;
-    margin-top: 50px;
+  width: 350px;
+  margin-top: 50px;
 }
 
-.brand-name  {
-    position: absolute;
-    top:25%;
-    left:25%;
-    color:#fff;
-    transform: (-50%,-50%);
-   font-family:  'Lacquer', sans-serif;
-   font-size: 100px;
+.brand-name {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  color: #fff;
+  transform: (-50%, -50%);
+  font-family: "Lacquer", sans-serif;
+  font-size: 100px;
 }
 
 .brand-name .hook {
-    position: absolute;
-    top:70%;
-    left:10%;
-    color:#fff;
-    transform: (-50%,-50%);
-   font-family:  'Lacquer', sans-serif;
-   font-size: 100px;
+  position: absolute;
+  top: 70%;
+  left: 10%;
+  color: #fff;
+  transform: (-50%, -50%);
+  font-family: "Lacquer", sans-serif;
+  font-size: 100px;
 }
 
 .brand-name .fashion {
-    position: absolute;
-    top:160%;
-    left:15%;
-    color:#fff;
-    transform: (-50%,-50%);
-   font-family:  'Lacquer', sans-serif;
-   font-size: 100px;
+  position: absolute;
+  top: 160%;
+  left: 15%;
+  color: #fff;
+  transform: (-50%, -50%);
+  font-family: "Lacquer", sans-serif;
+  font-size: 100px;
 }
 
-
 .info-container {
-    display: flex;
-    background: #F4F3F8;
-
-
+  display: flex;
+  background: #f4f3f8;
 }
 
 .info-container .logo-2 {
-    margin-left: 120px;
-    margin-top: 150px;
-    justify-content: space-around;
+  margin-left: 120px;
+  margin-top: 150px;
+  justify-content: space-around;
 }
 
 .info-container .info {
-    justify-content: space-between;
-    margin: 180px 100px 200px 300px;
- 
-    font-family: 'Anton', sans-serif;
-    align-items: center;
-  
+  justify-content: space-between;
+  margin: 180px 100px 200px 300px;
+
+  font-family: "Anton", sans-serif;
+  align-items: center;
 }
 
 .info-container .info h5 {
-margin-bottom: 30px;
-margin-left: 10px;
-
+  margin-bottom: 30px;
+  margin-left: 10px;
 }
 .info-container .info p {
-    margin-right: 150px;
-    margin-left: 150px;
-    font-size: 12px;
-    line-height: 20px;
-    margin: 10px;
-    font-size: 12px;
+  margin-right: 150px;
+  margin-left: 150px;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 10px;
+  font-size: 12px;
 }
-  /* yeezy content */
+/* yeezy content */
 .yeezy-container {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .yeezy-container img {
-    width: 350px;
-    margin-top: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-   
+  width: 350px;
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .yeezy-container .yeezy-info {
-    margin-top: 100px; 
-    margin-left: 100px;
-    margin-right: 100px;
-
- }
+  margin-top: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
 
 .yeezy-container .yeezy-info h5 {
-    margin-bottom: 20px;
-    margin-left: 10px;
-    font-size: 30px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  font-size: 30px;
 }
- .yeezy-container .yeezy-info p {
-     padding: 10px;
-     font-family: 'Anton', sans-serif;;
-     font-size: 12px;
- }
-  
- .yezzy-display {
-     display: flex;
-     margin-bottom: 100px;
- }
- .yezzy-2 img {
-     width: 350px;
-     margin-left: 100px;
- }
-    
- .yezzy-3 img {
-     width: 350px;
-     margin-left: 210px;
-     margin-top: 10px;
- }
+.yeezy-container .yeezy-info p {
+  padding: 10px;
+  font-family: "Anton", sans-serif;
+  font-size: 12px;
+}
 
- /* footer */
+.yezzy-display {
+  display: flex;
+  margin-bottom: 100px;
+}
+.yezzy-2 img {
+  width: 350px;
+  margin-left: 100px;
+}
 
- footer {
-     background: #F23005;
-    
-     
- }
+.yezzy-3 img {
+  width: 350px;
+  margin-left: 210px;
+  margin-top: 10px;
+}
 
- footer .footer {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    align-items: center;
-    
- }
+/* footer */
 
- footer .footer i {
- color: #fff;
- margin-left: 30px;
+footer {
+  background: #f23005;
+}
 
- }
+footer .footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  align-items: center;
+}
 
- footer .footer-list {
-     /* padding-top: 20px;
-     padding-bottom: 20px; */
- }
+footer .footer i {
+  color: #fff;
+  margin-left: 30px;
+}
 
- footer .footer-list li {
-    color: #fff;
-    font-family: 'Saira Semi Condensed', sans-serif;
-    padding: 5px;
-    cursor: pointer;
+footer .footer-list li {
+  color: #fff;
+  font-family: "Saira Semi Condensed", sans-serif;
+  padding: 5px;
+  cursor: pointer;
 }
 
 footer .social-list {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 
 footer .social-list li {
-    padding: 5px;
-    cursor: pointer;
+  padding: 5px;
+  cursor: pointer;
+}
+
+footer .social-list h5 {
+  color: #fff;
+  margin-left: 22px;
+  margin-bottom: 7px;
+  font-family: "Saira Semi Condensed", sans-serif;
 }
 
 footer p {
-    color: #fff;
-    font-family: 'Saira Semi Condensed', sans-serif;
-    margin-left: 20px;
-    margin-bottom: 7px;
-    padding: 3px;
+  color: #fff;
+  font-family: "Saira Semi Condensed", sans-serif;
+  margin-left: 20px;
+  margin-bottom: 7px;
 }
