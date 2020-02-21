@@ -80,43 +80,37 @@ nav .logo {
   font-size: 100px;
 }
 
-.brand-name .hook {
-  position: absolute;
-  top: 70%;
-  left: 10%;
+.brand-name span:not(:first-of-type) {
   color: #fff;
-  transform: (-50%, -50%);
-  font-family: "Lacquer", sans-serif;
   font-size: 100px;
+  transform: (-50%, -50%);
+  position: absolute;
 }
 
-.brand-name .fashion {
-  position: absolute;
+.brand-name span:nth-child(2) {
+  top: 70%;
+  left: 10%;
+}
+
+.brand-name span:last-child {
   top: 160%;
   left: 15%;
-  color: #fff;
-  transform: (-50%, -50%);
-  font-family: "Lacquer", sans-serif;
-  font-size: 100px;
 }
 
 .info-container {
   display: flex;
   background: #f4f3f8;
+  height: 100vh;
+  font-family: "Anton", sans-serif;
 }
 
 .info-container .logo-2 {
   margin-left: 120px;
   margin-top: 150px;
-  justify-content: space-around;
 }
 
 .info-container .info {
-  justify-content: space-between;
   margin: 180px 100px 200px 300px;
-
-  font-family: "Anton", sans-serif;
-  align-items: center;
 }
 
 .info-container .info h5 {
@@ -124,8 +118,6 @@ nav .logo {
   margin-left: 10px;
 }
 .info-container .info p {
-  margin-right: 150px;
-  margin-left: 150px;
   font-size: 12px;
   line-height: 20px;
   margin: 10px;
@@ -140,15 +132,11 @@ nav .logo {
 
 .yeezy-container img {
   width: 350px;
-  margin-top: 100px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 100px 100px 0 100px;
 }
 
 .yeezy-container .yeezy-info {
-  margin-top: 100px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin: 100px 100px 0 100px;
 }
 
 .yeezy-container .yeezy-info h5 {
@@ -166,6 +154,7 @@ nav .logo {
   display: flex;
   margin-bottom: 100px;
 }
+
 .yezzy-2 img {
   width: 350px;
   margin-left: 100px;
@@ -179,26 +168,24 @@ nav .logo {
 
 /* footer */
 
-footer {
+footer,
+footer a {
   background: #f23005;
+  color: white;
+  font-family: "Saira Semi Condensed", sans-serif;
 }
 
 footer .footer {
   display: flex;
   justify-content: space-between;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding-top: 30px 0;
   align-items: center;
 }
-
 footer .footer i {
-  color: #fff;
   margin-left: 30px;
 }
 
-footer .footer-list li {
-  color: #fff;
-  font-family: "Saira Semi Condensed", sans-serif;
+footer ul li {
   padding: 5px;
   cursor: pointer;
 }
@@ -207,21 +194,12 @@ footer .social-list {
   margin-right: 30px;
 }
 
-footer .social-list li {
-  padding: 5px;
-  cursor: pointer;
-}
-
 footer .social-list h5 {
-  color: #fff;
   margin-left: 22px;
   margin-bottom: 7px;
-  font-family: "Saira Semi Condensed", sans-serif;
 }
 
 footer p {
-  color: #fff;
-  font-family: "Saira Semi Condensed", sans-serif;
   margin-left: 20px;
   margin-bottom: 7px;
 }
