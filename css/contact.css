@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css?family=Patua+One|Saira+Semi+Condensed&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+/* navbar */
+.navbar {
+  font-family: "Saira Semi Condensed", sans-serif;
+  background: #f23005;
+}
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar ul li {
+  padding: 30px;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 0 2px;
+}
+
+nav ul li a:hover {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+nav ul li .current {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo {
+  margin: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* contact form */
+
+#form {
+  display: flex;
+  height: 400px;
+  width: 900px;
+  margin-top: 100px;
+  margin-left: 200px;
+}
+
+#form .input-form {
+  background: #f23005;
+  color: #fff;
+  font-family: "Saira Semi Condensed", sans-serif;
+  text-align: initial;
+  padding: 20px;
+}
+
+#form .input-form p {
+  padding: 5px;
+}
+
+#form .information {
+  background: #f4f3f8;
+  padding-left: 150px;
+}
