@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css?family=Patua+One|Saira+Semi+Condensed&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #f23005;
+}
+
+li {
+  list-style: none;
+}
+
+/* navbar */
+.navbar {
+  font-family: "Saira Semi Condensed", sans-serif;
+}
+.navbar ul {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar ul li {
+  padding: 30px;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 0 2px;
+}
+
+nav ul li a:hover {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+nav ul li .current {
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo {
+  margin: 30px;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* about content */
+section {
+  height: 100vh;
+}
+
+section h1 {
+  text-align: center;
+  color: #fff;
+  font-family: #f23005;
+  font-size: 120px;
+}
+
+.container {
+  display: flex;
+}
+
+section img {
+  width: 440px;
+  margin-top: 100px;
+  margin-left: 150px;
+}
+
+section .info-1 {
+  color: #fff;
+  margin-left: 80px;
+  margin-right: 100px;
+  margin-top: 85px;
+}
+
+section .info-1 h5 {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+section .info-1 p {
+  padding: 5px;
+  line-height: 20px;
+}
+
+/* footer */
+
+footer,
+footer a {
+  background: #fff;
+  color: black;
+  font-family: "Saira Semi Condensed", sans-serif;
+}
+
+footer .footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px 0;
+  align-items: center;
+  height: 25vh;
+}
+footer .footer i {
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+footer .footer-list {
+  margin-top: 13px;
+}
+
+footer .footer-list a:hover {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.current {
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  padding: 2px;
+}
+
+footer ul li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+footer ul li a {
+  text-decoration: none;
+}
+
+footer .social-list {
+  margin-right: 40px;
+  padding-top: 30px;
+}
+
+footer .social-list h5 {
+  margin-left: 22px;
+  margin-bottom: 7px;
+}
+
+footer p {
+  margin-left: 20px;
+  margin-bottom: 7px;
+}
