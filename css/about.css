@@ -19,49 +19,18 @@ li {
 }
 
 /* navbar */
-.navbar {
-  font-family: "Saira Semi Condensed", sans-serif;
-}
-.navbar ul {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 20px;
+
+nav {
+  background: white;
 }
 
 .navbar ul li a {
-  color: white;
-  text-decoration: none;
+  color: #f23005;
 }
 
-.navbar ul li {
-  padding: 30px;
-}
-
-nav ul li a {
-  display: inline-block;
-  padding: 0 2px;
-}
-
-nav ul li a:hover {
-  border-left: 1px solid white;
-  border-right: 1px solid white;
-}
-
-nav ul li .current {
-  border-left: 1px solid white;
-  border-right: 1px solid white;
-}
-
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-nav .logo {
-  margin: 30px;
-  color: #fff;
-  cursor: pointer;
+.navbar ul li a:hover {
+  border-right: 1px solid black;
+  border-left: 1px solid black;
 }
 
 /* about content */
@@ -74,6 +43,7 @@ section h1 {
   color: #fff;
   font-size: 120px;
   font-family: "Patua One";
+  margin-top: 80px;
 }
 
 .container {
@@ -97,6 +67,7 @@ section .info-1 h5 {
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-family: "Patua One";
 }
 
 section .info-1 p {
@@ -147,6 +118,11 @@ footer ul li {
 
 footer ul li a {
   text-decoration: none;
+}
+
+footer ul li a,
+footer ul li a:visited {
+  color: black;
 }
 
 footer .social-list {

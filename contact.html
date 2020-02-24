@@ -7,6 +7,7 @@
       src="https://kit.fontawesome.com/159ffcbc47.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <link rel="stylesheet" href="css/contact.css" />
     <title>Contact Page</title>
   </head>
@@ -25,7 +26,7 @@
     </nav>
 
     <section id="container">
-      <div class="input-form">
+      <form class="input-form">
         <h1>Contac Us</h1>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio,
@@ -40,13 +41,7 @@
         <div class="info-form2">
           <div>
             <label for="Name">Name</label>
-            <input
-              type="text"
-              name="Name"
-              id="Name"
-              placeholder="
-             Name"
-            />
+            <input type="text" name="Name" id="Name" placeholder="Name" />
           </div>
           <div>
             <label for="email">Email</label>
@@ -57,30 +52,39 @@
               placeholder="Enter email"
             />
           </div>
-          <div>
+          <div class="message">
             <label for="message">Massage</label>
-            <input
-              type="message"
+            <textarea
               name="message"
               id="message"
-              placeholder="Enter Message"
-            />
+              cols="30"
+              rows="10"
+            ></textarea>
           </div>
         </div>
         <button class="btn">Send</button>
-      </div>
+      </form>
       <div class="information">
         <ul>
-          <li>Email</li>
-          <li>Telephone</li>
-          <li>Adress</li>
+          <li>
+            <span>email:</span>
+            <span>thehookfashion@fashion.com</span>
+          </li>
+          <li>
+            <span>telephone:</span>
+            <span>123-23-2322</span>
+          </li>
+          <li>
+            <span>address:</span>
+            <span>123 main st new york new york</span>
+          </li>
         </ul>
       </div>
     </section>
 
     <!-- footer -->
 
-    <!-- <footer>
+    <footer>
       <div class="footer">
         <div class="logo-footer">
           <a href="index.html"><i class="fab fa-pied-piper fa-3x"></i></a>
@@ -111,6 +115,6 @@
         </ul>
       </div>
       <p>The Hook Fashion &copy 2020, All Rights Reserved</p>
-    </footer> -->
+    </footer>
   </body>
 </html>

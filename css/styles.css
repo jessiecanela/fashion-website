@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+nav a,
+nav a:visited {
+  color: black;
+}
 html {
   scroll-behavior: smooth;
   /* polyfil for safari */
@@ -196,6 +200,10 @@ footer ul li {
 
 footer ul li a {
   text-decoration: none;
+}
+footer ul li a,
+footer ul li a:visited {
+  color: white;
 }
 
 footer .social-list {
